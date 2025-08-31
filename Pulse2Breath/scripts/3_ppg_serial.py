@@ -85,11 +85,6 @@ class LiveDataHandler:
         self.file_start_time = None
 
     def get_recent_data(self, seconds: int = 30):
-        """
-        Return (elapsed_time_seconds_array, pleth_values_list, total_count) for the
-        most recent `seconds` of data (based on timestamps). If there isn't enough
-        data yet, returns as much as available. If empty, returns (None, None, 0).
-        """
         if len(self.timestamps) == 0:
             return None, None, 0
 
@@ -176,7 +171,6 @@ class LiveDataHandler:
             print(f"Device initialization error: {e}")
 
     def disconnect_serial(self):
-        """Stop reader and close port."""
         try:
             self.is_connected = False
             self.stop_reading.set()
@@ -292,11 +286,6 @@ class LiveDataHandler:
 
     # ---------- Serial Reader & Decoders ----------
     def _ascii6_decode_pairs(self, buf: bytearray):
-        """
-        Decode printable 6-bit ASCII stream into 12-bit samples.
-        Mapping: value = ((a-0x23)<<6) | (b-0x23), only when both in [0x23, 0x7A].
-        Returns (consumed_bytes, samples_list).
-        """
         out = []
         i = 0
         n = len(buf)
@@ -309,10 +298,6 @@ class LiveDataHandler:
             else:
                 i += 1  # resync
         return i, out
-
-
-
-    
 
         def _decode_c5d16_frames(self, buf: bytearray):
             """
@@ -393,7 +378,6 @@ class LiveDataHandler:
             self.si_data.append(np.nan)
 
     def _read_serial_data(self):
-        """Background reader: ASCII line first, else RAW+decode. Auto raw-mode banner."""
         while not self.stop_reading.is_set() and self.is_connected:
             try:
                 if self.pause_read:
@@ -432,7 +416,6 @@ class LiveDataHandler:
                 break
 
     def _parse_data_line(self, line):
-        """Parse incoming ASCII line (CSV/TSV/space), or sniff numbers anywhere."""
         try:
             parts = [p for p in line.replace(',', '\t').replace(' ', '\t').split('\t') if p]
             def to_float(s):
