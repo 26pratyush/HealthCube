@@ -49,7 +49,6 @@ class DataHandler:
         self.file_start_time = None
             
     def load_file_for_simulation(self, file_path):
-        """Load a .txt file for simulated real-time playback"""
         try:
             df = pd.read_csv(file_path, sep=r"\s+", engine="python")
             
@@ -79,7 +78,6 @@ class DataHandler:
             return False
     
     def start_file_simulation(self):
-        """Start file simulation mode"""
         if self.file_data is None:
             return False
         
@@ -143,7 +141,6 @@ class DataHandler:
         self.si_data.append(si)
 
     def simulate_file_data(self):
-        """Simulate data playback from loaded file at original sampling rate"""
         if not self.file_simulation or self.file_data is None:
             return False
             
@@ -246,7 +243,6 @@ def rr_time_domain(resp_signal, fs):
 
 
 def extract_rr_features_realtime(pleth_data, fs):
-    """Extract features from real-time data"""
     if len(pleth_data) < 10:
         return None, None, None, None, None, None, None
         
@@ -436,7 +432,6 @@ class PPGAnalyzerApp(tk.Tk):
         self.update_count = 0
 
     def load_file_simulation(self):
-        """Load a .txt file for simulated playback"""
         file_path = filedialog.askopenfilename(
             title="Select PPG .txt file for simulation",
             filetypes=[("Text files", "*.txt"), ("All files", "*.*")]
@@ -474,7 +469,6 @@ class PPGAnalyzerApp(tk.Tk):
                 messagebox.showerror("Load Error", "Failed to load the selected file.")
                 
     def stop_all_modes(self):
-        """Stop all simulation and file modes"""
         if self.file_mode:
             self.data_handler.stop_file_simulation()
             self.file_mode = False
@@ -487,7 +481,6 @@ class PPGAnalyzerApp(tk.Tk):
         self.sim_btn.config(text="Start Simulation")
             
     def toggle_simulation(self):
-        """Toggle simulation mode"""
         if not self.simulation_mode or not self.is_running:
             self.stop_all_modes()
             
@@ -501,7 +494,6 @@ class PPGAnalyzerApp(tk.Tk):
             self.stop_all_modes()
             
     def update_display(self):
-        """Main update loop"""
         try:
             # Generate or get data
             if self.simulation_mode and self.is_running:
@@ -553,7 +545,6 @@ class PPGAnalyzerApp(tk.Tk):
         self.after(100, self.update_display)
         
     def update_features_display(self, features):
-        """Update the features table"""
         for item in self.tree.get_children():
             self.tree.delete(item)
             
@@ -568,7 +559,6 @@ class PPGAnalyzerApp(tk.Tk):
             self.tree.insert("", "end", values=(key, display_value))
             
     def update_plots(self, time_data, pleth_data, x_smooth, resp_signal, peaks, freqs, psd, features):
-        """Update all plots"""
         try:
             # Plot 1: Live PPG signal
             self.ax1.clear()
@@ -632,7 +622,6 @@ class PPGAnalyzerApp(tk.Tk):
             print(f"Plot update error: {e}")
             
     def update_insights(self, features):
-        """Update insights text"""
         try:
             self.insights_text.delete("1.0", tk.END)
             
