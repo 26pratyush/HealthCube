@@ -1,0 +1,50 @@
+{
+  "selected_features": [
+    "age",
+    "aVL_std",
+    "aVL_range",
+    "aVF_skewness",
+    "signal_skewness",
+    "II_skewness",
+    "III_std",
+    "V1_skewness",
+    "V4_skewness",
+    "III_range",
+    "V1_std",
+    "III_skewness",
+    "signal_min",
+    "I_range",
+    "V3_range"
+  ],
+  "model_name": "LightGBM (Optimized)",
+  "performance_metrics": {
+    "Accuracy": 0.8125,
+    "Precision": 0.7988505747126436,
+    "Recall": 0.776536312849162,
+    "F1-Score": 0.7875354107648725,
+    "ROC-AUC": 0.8801031370863773,
+    "PR-AUC": 0.8679902949108772,
+    "MCC": 0.6200095968834474
+  },
+  "clinical_metrics": {
+    "sensitivity": 0.776536312849162,
+    "specificity": 0.8416289592760181,
+    "ppv": 0.7988505747126436,
+    "npv": 0.8230088495575221,
+    "false_negatives": 40.0,
+    "false_positives": 35.0
+  },
+  "training_info": {
+    "training_samples": 1600,
+    "test_samples": 400,
+    "feature_count": 15,
+    "class_distribution": {
+      "0": 1105,
+      "1": 895
+    },
+    "overfitting_gap": 0.13706663069745706,
+    "roc_ci_lower": 0.8431879498410103,
+    "roc_ci_upper": 0.9124430305431651
+  },
+  "deployment_timestamp": "20250821_125946"
+}
