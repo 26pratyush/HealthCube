@@ -194,18 +194,9 @@ Binary Classifiert/
 
 -----
 
-## Future Research Directions
+## Future Directions ( for the next intern :P )
 
-### Immediate Extensions
-
-  * **Multi-class Classification**: Specific abnormality type detection.
-  * **External Validation**: Testing on independent hospital datasets.
-  * **Real-time Processing**: Streaming ECG analysis capabilities.
-
-### Clinical Research Applications
-
-  * **Telemedicine**: Remote ECG interpretation support.
-  * **Research Tools**: Large-scale cardiac study automation.
+**This project is currently a feasibility study aimed at determining whether ECG records can be classified as normal or abnormal, with the potential to extend into multi-class classification for specific condition diagnoses. The process is not a single-step or single-script workflow; instead, it progresses through several phases, including normalization and filtering, feature extraction, model training, and prediction. Because each phase must currently be executed manually and the results passed to the next step, the pipeline cannot yet be considered automated. A key future direction is to automate this pipeline (ideally in real time) so that once a model is trained, it can take a raw ECG signal, perform all necessary processing, and output a prediction seamlessly and immediately.** 
 
 -----
 
