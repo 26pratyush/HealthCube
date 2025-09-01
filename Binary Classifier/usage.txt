@@ -1,0 +1,4 @@
+Running 7_enhanced_predictor.py (testing script for the model)
+& 8_finale.py (complete app with GUI for taking in a record and predicting as normal/abnormal)
+can be found at:
+https://drive.google.com/drive/folders/1sFjVvoQ-NPGdpLXSFJ7MDx4wjIgP9clW?usp=sharing
