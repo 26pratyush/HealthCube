@@ -4,11 +4,15 @@
 
 This project is an AI-based potassium ($K^{+}$) severity prediction tool built on ECG-derived features. It provides both quantitative estimates of potassium levels (mmol/L) and a clinical severity classification (e.g., severe\_hypo, mild\_hypo, normal, hyper). The system is wrapped in a Streamlit UI for interactive exploration.
 
-## What Has Been Done
+## Methodology
 
-* **Feature extraction:** ECG and HRV features were computed from raw biosignals.
-* **Model training:** Machine learning models were trained to predict both serum potassium levels and severity class.
-* **Inference dashboard:** Built using Streamlit with adjustable sample size, random seed, severity comparison, feature snapshots, and report download.
+**Data and Feature Extraction**
+
+* The project is built on the VitalDB dataset, a large collection of multi-signal and multi-device physiological recordings. From ECG waveforms (primarily lead II), features were extracted to capture both heart rate variability (HRV), morphological information and patient metadata. Time-domain HRV measures included MeanNN, SDNN, RMSSD, and SDSD, while morphological descriptors such as ECG rate and beat-to-beat variability were also computed. These features were consolidated into structured datasets linking each patient record with corresponding serum potassium (K⁺) values and categorical severity labels (normal, mild hypo/hyper, severe hypo/hyper). The pipeline generated several artifacts: cleaned datasets, prepared feature-target matrices, and enhanced versions with resampling , ensuring reproducibility and balance across classes.
+
+**Modeling and Inference**
+
+* Using the extracted feature datasets, machine learning models were developed with scikit-learn. The modeling phase explored supervised classifiers to predict both continuous potassium levels and categorical severity. To mitigate class imbalance, resampling techniques like SMOTE (Synthetic Minority Over-sampling Technique) were applied. The best-performing model was serialized as vital_clinical_model.pkl for inference. An interactive Streamlit dashboard was then implemented, allowing users to explore patient-level predictions, compare estimated vs. true potassium, review severity matches, and download structured HTML reports.
 
 ## Accuracy Constraints
 
@@ -42,9 +46,11 @@ This project is an AI-based potassium ($K^{+}$) severity prediction tool built o
 
 ## How to Run
 
-1.  **Install requirements:** `pip install -r requirements.txt`
-2.  **Start the app:** `streamlit run 7_app.py`
-3.  Adjust sample size and seed to explore predictions interactively.
+1.  **Clone the Repository** 
+2.  Ensure file structure remains intact
+3.  **Install requirements:** `pip install -r requirements.txt`
+4.  **Start the app:** `streamlit run 7_app.py`
+5.  Adjust sample size and seed to explore predictions interactively.
 
 ## Disclaimer
 
