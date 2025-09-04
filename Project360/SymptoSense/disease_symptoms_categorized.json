@@ -1,0 +1,208 @@
+{
+  "Malaria": {
+  "hallmark": ["convulsions"],
+  "core": ["high_fever", "chills", "sweating"],
+  "associated": ["headache", "nausea", "vomiting", "muscle_pain", "anemia", "jaundice", "dark_urine"],
+  "general": ["fatigue"]
+  },
+  "Dengue": {
+  "hallmark": ["pain_behind_the_eyes", "nose_bleeding", "gum_bleeding", "rash"],
+  "core": ["high_fever", "severe_headache", "joint_pain", "muscle_pain"],
+  "associated": ["easy_bruising", "nausea"],
+  "general": ["fatigue"]
+  },
+  "Chikungunya": {
+  "hallmark": ["severe_joint_pain", "joint_swelling"],
+  "core": ["high_fever", "rash"],
+  "associated": ["headache", "muscle_pain"],
+  "general": ["fatigue"]
+  },
+  "Leptospirosis": {
+  "hallmark": ["red_eyes", "jaundice"],
+  "core": ["high_fever", "chills", "headache", "muscle_pain"],
+  "associated": ["vomiting", "abdominal_pain", "diarrhea", "rash"],
+  "general": []
+  },
+  "Typhoid": {
+  "hallmark": ["rose_spots"],
+  "core": ["high_fever", "stomach_pain", "headache"],
+  "associated": ["weakness", "diarrhea", "constipation", "cough", "loss_of_appetite"],
+  "general": []
+  },
+  "Hepatitis B": {
+  "hallmark": ["dark_urine", "clay_colored_stool", "jaundice"],
+  "core": ["fatigue", "abdominal_pain"],
+  "associated": ["fever", "joint_pain", "nausea", "vomiting", "loss_of_appetite"],
+  "general": []
+  },
+  "Hepatitis C": {
+  "hallmark": ["dark_urine", "clay_colored_stool", "jaundice"],
+  "core": ["fatigue", "abdominal_pain"],
+  "associated": ["fever", "muscle_pain", "joint_pain", "nausea", "vomiting", "loss_of_appetite"],
+  "general": []
+  },
+  "HIV 1/2": {
+  "hallmark": ["persistent_diarrhea", "recurrent_infections", "night_sweating"],
+  "core": ["fever", "swollen_lymph_nodes", "weight_loss"],
+  "associated": ["chills", "rash", "sore_throat", "muscle_pain", "mouth_ulcers"],
+  "general": ["fatigue"]
+  },
+  "Syphilis": {
+  "hallmark": ["painless_sores", "skin_rash", "mucous_membrane_lesions"],
+  "core": ["fever", "swollen_lymph_nodes", "sore_throat"],
+  "associated": ["patchy_hair_loss", "weight_loss"],
+  "general": []
+  },
+
+  "Hypertension (High BP)": {
+  "hallmark": [],
+  "core": ["headache", "chest_pain", "blurred_vision"],
+  "associated": ["shortness_of_breath", "dizziness", "ankle_swelling"],
+  "general": []
+  },
+  "Hypotension (Low BP)": {
+  "hallmark": [],
+  "core": ["dizziness", "fainting"],
+  "associated": ["blurred_vision", "cold_clammy_skin"],
+  "general": ["fatigue"]
+  },
+  "Hypoxemia (Low O2 Sat)": {
+  "hallmark": ["blue_lips or blue_fingertips"],
+  "core": ["shortness_of_breath"],
+  "associated": ["rapid_heartbeat", "persistent_cough", "wheezing"],
+  "general": ["trouble_concentrating"]
+  },
+  "Tachycardia (High Pulse)": {
+  "hallmark": ["rapid_heartbeat"],
+  "core": ["dizziness", "shortness_of_breath"],
+  "associated": ["chest_pain", "fainting"],
+  "general": []
+  },
+  "Bradycardia (Low Pulse)": {
+  "hallmark": [],
+  "core": ["shortness_of_breath", "dizziness"],
+  "associated": ["confusion", "chest_pain"],
+  "general": ["fatigue"]
+  },
+  "Hyperglycemia (High Glucose)": {
+  "hallmark": ["frequent_urination", "thirst", "increased_hunger"],
+  "core": ["unexplained_weight_loss"],
+  "associated": ["blurred_vision"],
+  "general": ["fatigue"]
+  },
+  "Hypoglycemia (Low Glucose)": {
+  "hallmark": ["shakiness", "sweating", "hunger"],
+  "core": ["confusion"],
+  "associated": ["dizziness", "mood_changes"],
+  "general": []
+  },
+  "Anemia (Low Hb)": {
+  "hallmark": ["pale_skin", "yellowish_skin"],
+  "core": ["fatigue", "shortness_of_breath", "dizziness"],
+  "associated": ["chest_pain", "irregular_heartbeat"],
+  "general": []
+  },
+  "Polycythemia (High Hb)": {
+  "hallmark": ["flushed_face", "itching_after_hot_shower"],
+  "core": ["headache", "dizziness"],
+  "associated": ["shortness_of_breath"],
+  "general": ["fatigue"]
+  },
+  "Hypercholesterolemia (High Cholesterol)": {
+  "hallmark": ["xanthomas"],
+  "core": ["chest_pain", "shortness_of_breath"],
+  "associated": ["fatigue"],
+  "general": []
+  },
+  "Hypocholesterolemia (Low Cholesterol)": {
+  "hallmark": [],
+  "core": ["unexplained_weight_loss"],
+  "associated": ["changes_in_skin", "changes_in_eyes", "irritability", "depression"],
+  "general": ["fatigue", "weakness"]
+  },
+  "Hyperuricemia (High Uric Acid)": {
+  "hallmark": ["hot_joint", "joint_redness"],
+  "core": ["sudden_severe_joint_pain", "joint_swelling"],
+  "associated": ["kidney_stones_history", "family_history_gout"],
+  "general": []
+  },
+  "Hypouricemia (Low Uric Acid)": {
+  "hallmark": [],
+  "core": [],
+  "associated": ["frequent_urination", "liver_disease_history", "family_history_low_uric_acid"],
+  "general": ["fatigue", "weakness"]
+  },
+
+  "Bacterial Infection": {
+  "hallmark": ["pus_formation"],
+  "core": ["fever", "localized_pain", "swelling", "redness"],
+  "associated": ["chills", "body_pain"],
+  "general": ["fatigue"]
+  },
+  "Viral Infection": {
+  "hallmark": [],
+  "core": ["fever", "cough", "sore_throat", "runny_nose"],
+  "associated": ["headache", "muscle_pain", "body_pain"],
+  "general": ["fatigue"]
+  },
+  "Inflammatory Diseases": {
+  "hallmark": [],
+  "core": ["joint_pain", "joint_swelling", "stiffness"],
+  "associated": ["redness", "fever", "rash"],
+  "general": ["fatigue"]
+  },
+  "Autoimmune Diseases": {
+  "hallmark": [],
+  "core": ["joint_pain", "joint_swelling", "prolonged_inflammation"],
+  "associated": ["rash", "fever"],
+  "general": ["fatigue"]
+  },
+  "Chronic Inflammatory Conditions": {
+  "hallmark": ["rectal_bleeding", "urgency_to_defecate"],
+  "core": ["abdominal_pain", "diarrhea"],
+  "associated": ["weight_loss"],
+  "general": ["fatigue"]
+  },
+  "Cardiovascular Diseases": {
+  "hallmark": [],
+  "core": ["chest_pain", "palpitations", "shortness_of_breath"],
+  "associated": ["swelling_in_legs", "swelling_in_feet"],
+  "general": ["fatigue"]
+  },
+  "Severe Trauma or Surgery": {
+  "hallmark": ["injury_site_pain"],
+  "core": ["swelling", "redness", "fever"],
+  "associated": ["rapid_heartbeat"],
+  "general": ["fatigue"]
+  },
+  "Bacterial Sepsis": {
+  "hallmark": ["clammy_skin"],
+  "core": ["high_fever", "rapid_heartbeat", "rapid_breathing"],
+  "associated": ["confusion", "severe_pain", "low_blood_pressure"],
+  "general": []
+  },
+  "Severe Bacterial Infections": {
+  "hallmark": ["stiff_neck"],
+  "core": ["high_fever", "chills", "severe_headache"],
+  "associated": ["nausea", "vomiting", "confusion", "cough", "chest_pain", "shortness_of_breath"],
+  "general": []
+  },
+  "Severe Systemic Infections": {
+  "hallmark": ["low_blood_pressure", "decreased_urine_output"],
+  "core": ["high_fever", "chills", "weakness"],
+  "associated": ["rapid_heartbeat", "confusion"],
+  "general": []
+  },
+  "Respiratory Infections": {
+  "hallmark": [],
+  "core": ["fever", "cough", "shortness_of_breath", "chest_pain"],
+  "associated": ["nasal_congestion", "headache", "facial_pain"],
+  "general": []
+  },
+  "Post-Surgical Infections": {
+  "hallmark": ["pus_formation"],
+  "core": ["fever", "surgical_site_pain", "redness", "swelling"],
+  "associated": ["rapid_heartbeat"],
+  "general": ["fatigue"]
+}
+}

@@ -1,0 +1,44 @@
+Disease	Symptoms																								
+Malaria: High fever, chills, sweats, headache, nausea, vomiting, muscle pain, fatigue, anemia, jaundice, dark urine, convulsions
+Dengue:	High fever, severe headache, pain behind the eyes, joint and muscle pain, rash, nose or gum bleeding, easy bruising, fatigue, nausea			
+Chikungunya: High fever, severe joint pain, joint swelling, headache, muscle pain, rash, fatigue
+Leptospirosis: High fever, headache, chills, muscle pain, vomiting, jaundice, red eyes, abdominal pain, diarrhea, rash
+Typhoid: High fever, weakness, stomach pain, headache, diarrhea or constipation, cough, loss of appetite, rash or rose spots
+Hepatitis B: Fatigue, fever, joint pain, nausea, vomiting, loss of appetite, abdominal pain, dark urine, clay-colored stool, jaundice
+Hepatitis C: Fatigue, fever, muscle and joint pain, nausea, vomiting, loss of appetite, abdominal pain, dark urine, clay-colored stool, jaundice
+HIV 1/2: Fever, chills, rash, night sweats, muscle pain, sore throat, fatigue, swollen lymph nodes, mouth ulcers, weight loss, persistent diarrhea, recurrent infections (e.g., pneumonia, tuberculosis)
+Syphilis: painless sores, skin rash, mucous membrane lesions, fever, swollen lymph nodes, sore throat, patchy hair loss, weight loss
+Hypertension (High BP): Headaches, shortness of breath, chest pain, dizziness, blurred vision, swelling in ankles or feet
+Hypotension (Low BP): Dizziness, fainting, fatigue, blurred vision, cold, clammy skin
+Hypoxemia (Low O2 Sat): Shortness of breath, rapid heartbeat, trouble concentrating, blue lips or fingertips, persistent cough or wheezing
+Tachycardia (High Pulse): Heart racing or pounding, dizziness, shortness of breath, chest pain, fainting
+Bradycardia (Low Pulse): Fatigue, dizziness, shortness of breath, chest pain, confusion
+Hyperglycemia (High Glucose): Thirst, frequent urination, unexplained weight loss, fatigue, blurred vision
+Hypoglycemia (Low Glucose): Shakiness, sweating, hunger, confusion, dizziness, mood changes
+Anemia (Low Hb): Fatigue, pale or yellowish skin, shortness of breath, dizziness, chest pain, irregular heartbeats
+Polycythemia (High Hb): Headaches, dizziness, flushed face, fatigue, shortness of breath, itching after a hot shower or bath
+Hypercholesterolemia (High Cholesterol): Chest pain, shortness of breath, fatigue, yellowish deposits under the skin (xanthomas)
+Hypocholesterolemia (Low Cholesterol): Fatigue, weakness, unexplained weight loss, changes in skin or eyes, irritability, depression
+Hyperuricemia (High Uric Acid): Sudden severe joint pain, joint swelling and redness, hot joints, history of kidney stones, family history of gout
+Hypouricemia (Low Uric Acid): Fatigue, weakness, history of liver disease, frequent urination, family history of low uric acid levels
+Bacterial Infection: Fever, chills, fatigue, body pain, localized pain or tenderness, swelling, redness, pus formation
+Viral Infection: Fever, fatigue, body pain, cough, runny nose, sore throat, headache, muscle pain
+Inflammatory Diseases (e.g., Rheumatoid Arthritis, Lupus): Joint pain, stiffness, swelling, redness, fatigue, fever, rash (in lupus)
+Autoimmune Diseases: Joint pain, swelling, fatigue, skin rashes, unexplained fevers, prolonged inflammation
+Chronic Inflammatory Conditions (e.g., Crohn's Disease, Ulcerative Colitis): Abdominal pain, diarrhea, weight loss, fatigue, rectal bleeding, urgency to defecate
+Cardiovascular Diseases: Chest pain, shortness of breath, fatigue, palpitations, swelling in legs and feet
+Severe Trauma or Surgery: Pain at the injury or surgical site, swelling, redness, fever, increased heart rate, fatigue
+Bacterial Sepsis: High fever, chills, rapid heart rate, rapid breathing, confusion, severe pain or discomfort, clammy or sweaty skin
+Severe Bacterial Infections (e.g., Pneumonia, Meningitis): High fever, chills, severe headache, stiff neck, nausea, vomiting, confusion, cough, chest pain, shortness of breath
+Severe Systemic Infections: High fever, chills, weakness, rapid heart rate, low blood pressure, confusion, decreased urine output
+Respiratory Infections (e.g., Bronchitis, Sinusitis): Fever, cough, shortness of breath, chest discomfort, nasal congestion, headache, facial pain
+Post-Surgical Infections: Fever, pain at the surgical site, redness, swelling, pus formation, increased heart rate, fatigue
+										
+												
+																
+																									
+					
+															
+																									
+					
+													
