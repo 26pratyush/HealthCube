@@ -1,0 +1,15 @@
+# Web App / UI
+streamlit
+
+# Backend API
+fastapi
+uvicorn
+pydantic
+
+# Database
+pymongo
+
+# Utilities (optional)
+tqdm
+joblib
+python-dotenv
