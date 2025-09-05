@@ -39,7 +39,7 @@ After this:
 * `symptoms` collection = cleaned list of all symptoms
 * `diseases` collection = diseases mapped to core/associated/general symptoms
 * `questions` collection = yes/no symptom questions linked to diseases
-* * `cases` collection = stored history of all past triages
+* `cases` collection = stored history of all past triages
 
 ---
 
