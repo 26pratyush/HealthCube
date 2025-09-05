@@ -22,9 +22,9 @@ It also computes live features such as RR (FFT and time-domain) and breath count
 
 The toolkit can run in three different modes:
 
-  * **Simulation mode** (using synthetic PPG data).
-  * **File playback** (replays a recorded .txt file as if it were live).
-  * **Serial mode** (experimental) to read directly from a USB-to-UART PPG device.
+  * **Normal mode** (takes in the entire ppg file (record.txt) at once and plots graphs + extracts features).
+  * **File playback** (replays a pre-recorded .txt file as if it were live, continously plotting the graph and extracting features).
+  * **Serial mode** (experimental) to read directly from a USB-to-UART PPG device ( currently failing due to inability to decipher the unknown protocols of the PPG device).
 
 -----
 
@@ -135,4 +135,5 @@ The file will be replayed as if it were a live data stream: plots update approxi
   * **No plots**: Start with Simulation or File mode first to confirm the UI is working correctly.
   * **Serial connected, but "RAW stream (bytes)"**: Your device is sending an unrecognized binary format. Use the **Sniff** button and share the dump to help extend the decoder.
   * **Flat or "steppy" waveform**: This often indicates a framing or alignment issue. Use **Sniff**, then reconnect.
+
   * **High or odd COM number**: Some applications may have issues with high COM ports. You can reassign the port in Windows Device Manager (under Port Settings → Advanced).
