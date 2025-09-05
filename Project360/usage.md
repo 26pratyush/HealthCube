@@ -34,7 +34,7 @@ python step6_build_questions.py  # generate symptom questions
 #other files will directly be used by app.py and dont need to be manually run, ex-files 7,8,9
 ```
 
-After this: (other files will directly be used by app.py and dont need to be manually run, ex-files 7,8,9)
+After this:
 
 * `symptoms` collection = cleaned list of all symptoms
 * `diseases` collection = diseases mapped to core/associated/general symptoms
