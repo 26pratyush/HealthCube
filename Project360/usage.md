@@ -2,7 +2,7 @@
 
 ### 1. Start MongoDB
 
-* Install MongoDB Community Server.
+* Install MongoDB Compass
 * Make sure it runs on `localhost:27017`.
   Test with:
 
