@@ -42,3 +42,6 @@ After this:
 ```bash
 python -m streamlit run app.py
 ```
+
+### 5. Use in the following manner
+https://drive.google.com/drive/folders/1sFjVvoQ-NPGdpLXSFJ7MDx4wjIgP9clW?usp=sharing
