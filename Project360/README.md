@@ -11,28 +11,11 @@ Instead of directly predicting diseases from free-text symptoms with ML, the cur
 
 ---
 
-## 🚀 How to Run
-
-1. Clone this repo
-    ```bash
-    git clone [https://github.com/](https://github.com/)<your-username>/project360-symptosense.git
-    cd project360-symptosense
-    ```
-2. Install dependencies
-    ```bash
-    pip install -r requirements.txt
-    ```
-3. Start the app
-    ```bash
-    streamlit run app.py
-    ```
-4. Ensure MongoDB is running locally on default port 27017.
-
 ### 📂 Project Structure
 
 * `app.py` → Main Streamlit UI for SymptoSense (connects frontend to backend logic).
-* `disease_symptoms_categorization.json` → Categorized mapping of diseases and their core/associated/general symptoms.
-* `Real_symptoms.txt` → Reference list of symptom names used for seeding and validation.
+* `disease_symptoms_categorization.json` → Categorized mapping of diseases and their hallmark/core/associated/general symptoms.
+* `Real_symptoms.txt` → Reference list of symptom names used for seeding and testing.
 
 ### Backend Pipeline (Step Scripts)
 
@@ -53,7 +36,7 @@ Instead of directly predicting diseases from free-text symptoms with ML, the cur
 
 * Accuracy dropped for overlapping symptoms (e.g., dengue vs chikungunya).
 * Hard to incorporate doctor feedback directly.
-* Required constant retraining with new data.
+* Required constant retraining with new data, and limited customizability.
 
 **MongoDB version:**
 
