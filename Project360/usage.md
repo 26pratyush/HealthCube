@@ -20,7 +20,7 @@ pip install -r requirements.txt
 
 ---
 
-### 3. Initialize the database (run in order)
+### 3. Initialize the database (run the below files in the same order)
 
 These scripts convert your symptom/disease files into MongoDB collections:
 
