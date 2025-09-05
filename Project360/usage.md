@@ -10,15 +10,11 @@
   mongosh
   ```
 
----
-
 ### 2. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
-
----
 
 ### 3. Initialize the database (run the below files in the same order)
 
@@ -40,8 +36,6 @@ After this:
 * `diseases` collection = diseases mapped to core/associated/general symptoms
 * `questions` collection = yes/no symptom questions linked to diseases
 * `cases` collection = stored history of all past triages
-
----
 
 ### 4. Run the app
 
