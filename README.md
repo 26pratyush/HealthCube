@@ -6,7 +6,7 @@
 
 ---
 
-# ECG Abnormality Detection
+# ECG Abnormality Detection / Binary Classifier
 
 * Classical ML models (LightGBM, RandomForest, XGBoost) trained on PTB-XL / extracted features.
 * Optimized with Optuna, evaluated with accuracy + macro F1.
@@ -14,7 +14,7 @@
 
 ---
 
-# Potassium Extraction from ECG (VitalDB)
+# Potassium Extraction from ECG (VitalDB) / K+ Predictor
 
 * Uses ECG_II and lab_data.csv from VitalDB to estimate serum potassium levels (K-value).
 * Regression for estimated K (MAE, RMSE) + classification for severity ranges (hypo/hyper/normal).
