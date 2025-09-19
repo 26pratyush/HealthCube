@@ -4,6 +4,14 @@
 
 Evaluation was conducted on **624 patient records**.
 
+**Potassium Level Prediction (Regression):**  
+* Average % Error: **10.34%**  
+* Approximate Accuracy: **89.66%**  
+
+**Severity Label Classification:**  
+* Error %: **5.93%**  
+* Accuracy: **94.07%** 
+
 ### K-value (Regression)
 
 * **MAE** = 0.380 mmol/L
