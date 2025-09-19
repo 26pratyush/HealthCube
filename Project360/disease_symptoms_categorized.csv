@@ -1,0 +1,35 @@
+Disease,Hallmark Symptoms,Core Symptoms,Associated Symptoms,General Symptoms
+Malaria,convulsions,"high_fever, chills, sweating","headache, nausea, vomiting, muscle_pain, anemia, jaundice, dark_urine",fatigue
+Dengue,"pain_behind_the_eyes, nose_bleeding, gum_bleeding, rash","high_fever, severe_headache, joint_pain, muscle_pain","easy_bruising, nausea",fatigue
+Chikungunya,"severe_joint_pain, joint_swelling","high_fever, rash","headache, muscle_pain",fatigue
+Leptospirosis,"red_eyes, jaundice","high_fever, chills, headache, muscle_pain","vomiting, abdominal_pain, diarrhea, rash",
+Typhoid,rose_spots,"high_fever, stomach_pain, headache","weakness, diarrhea, constipation, cough, loss_of_appetite",
+Hepatitis B,"dark_urine, clay_colored_stool, jaundice","fatigue, abdominal_pain","fever, joint_pain, nausea, vomiting, loss_of_appetite",
+Hepatitis C,"dark_urine, clay_colored_stool, jaundice","fatigue, abdominal_pain","fever, muscle_pain, joint_pain, nausea, vomiting, loss_of_appetite",
+HIV 1/2,"persistent_diarrhea, recurrent_infections, night_sweating","fever, swollen_lymph_nodes, weight_loss","chills, rash, sore_throat, muscle_pain, mouth_ulcers",fatigue
+Syphilis,"painless_sores, skin_rash, mucous_membrane_lesions","fever, swollen_lymph_nodes, sore_throat","patchy_hair_loss, weight_loss",
+Hypertension (High BP),,"headache, chest_pain, blurred_vision","shortness_of_breath, dizziness, ankle_swelling",
+Hypotension (Low BP),,"dizziness, fainting","blurred_vision, cold_clammy_skin",fatigue
+Hypoxemia (Low O2 Sat),blue_lips or blue_fingertips,shortness_of_breath,"rapid_heartbeat, persistent_cough, wheezing",trouble_concentrating
+Tachycardia (High Pulse),rapid_heartbeat,"dizziness, shortness_of_breath","chest_pain, fainting",
+Bradycardia (Low Pulse),,"shortness_of_breath, dizziness","confusion, chest_pain",fatigue
+Hyperglycemia (High Glucose),"frequent_urination, thirst, increased_hunger",unexplained_weight_loss,blurred_vision,fatigue
+Hypoglycemia (Low Glucose),"shakiness, sweating, hunger",confusion,"dizziness, mood_changes",
+Anemia (Low Hb),"pale_skin, yellowish_skin","fatigue, shortness_of_breath, dizziness","chest_pain, irregular_heartbeat",
+Polycythemia (High Hb),"flushed_face, itching_after_hot_shower","headache, dizziness",shortness_of_breath,fatigue
+Hypercholesterolemia (High Cholesterol),xanthomas,"chest_pain, shortness_of_breath",fatigue,
+Hypocholesterolemia (Low Cholesterol),,unexplained_weight_loss,"changes_in_skin, changes_in_eyes, irritability, depression","fatigue, weakness"
+Hyperuricemia (High Uric Acid),"hot_joint, joint_redness","sudden_severe_joint_pain, joint_swelling","kidney_stones_history, family_history_gout",
+Hypouricemia (Low Uric Acid),,,"frequent_urination, liver_disease_history, family_history_low_uric_acid","fatigue, weakness"
+Bacterial Infection,pus_formation,"fever, localized_pain, swelling, redness","chills, body_pain",fatigue
+Viral Infection,,"fever, cough, sore_throat, runny_nose","headache, muscle_pain, body_pain",fatigue
+Inflammatory Diseases,,"joint_pain, joint_swelling, stiffness","redness, fever, rash",fatigue
+Autoimmune Diseases,,"joint_pain, joint_swelling, prolonged_inflammation","rash, fever",fatigue
+Chronic Inflammatory Conditions,"rectal_bleeding, urgency_to_defecate","abdominal_pain, diarrhea",weight_loss,fatigue
+Cardiovascular Diseases,,"chest_pain, palpitations, shortness_of_breath","swelling_in_legs, swelling_in_feet",fatigue
+Severe Trauma or Surgery,injury_site_pain,"swelling, redness, fever",rapid_heartbeat,fatigue
+Bacterial Sepsis,clammy_skin,"high_fever, rapid_heartbeat, rapid_breathing","confusion, severe_pain, low_blood_pressure",
+Severe Bacterial Infections,stiff_neck,"high_fever, chills, severe_headache","nausea, vomiting, confusion, cough, chest_pain, shortness_of_breath",
+Severe Systemic Infections,"low_blood_pressure, decreased_urine_output","high_fever, chills, weakness","rapid_heartbeat, confusion",
+Respiratory Infections,,"fever, cough, shortness_of_breath, chest_pain","nasal_congestion, headache, facial_pain",
+Post-Surgical Infections,pus_formation,"fever, surgical_site_pain, redness, swelling",rapid_heartbeat,fatigue
